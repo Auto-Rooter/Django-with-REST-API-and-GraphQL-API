@@ -33,3 +33,7 @@ $ python manage.py migrate --run-syncdb
 ```shell
 $ python manage.py createsuperuser
 ```
+### Create Fake Data(Seed the DB):
+```shell
+$ python manage.py mega_seed
+```
