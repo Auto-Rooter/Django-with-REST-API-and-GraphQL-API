@@ -18,4 +18,12 @@ REST & GraphQL API of the Airbnb Clone using Django REST Framework and Graphene 
 ### Create Dev Env:
 
 ```shell
-$ pipenv install
+$ pipenv instal
+```
+### Migrations:
+
+```shell
+$ python manage.py makemigrations
+```
+
+
