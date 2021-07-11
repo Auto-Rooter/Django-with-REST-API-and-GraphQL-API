@@ -24,6 +24,12 @@ $ pipenv instal
 
 ```shell
 $ python manage.py makemigrations
+$ python manage.py migrate --run-syncdb
 ```
 
 
+### Create the SuperUser:
+
+```shell
+$ python manage.py createsuperuser
+```
